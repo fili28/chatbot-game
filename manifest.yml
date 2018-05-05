@@ -1,0 +1,10 @@
+applications:
+- path: .
+  name: test
+  host: chatbot-game
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  memory: 256M
+  disk_quota: 1024M
+  #services:
+  #  - CyanConversations
