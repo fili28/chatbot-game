@@ -1,16 +1,16 @@
 <div class="collapse navbar-collapse" id="main-navbar">
   <ul class="nav navbar-nav">
-      <li class=""><a [routerLink]="['/']">Home</a></li>
+      <li class=""><a [routerLink]="['/']">Domů</a></li>
   </ul>
 </div>
 <div class='row'>
   <div class='col-xs-4' *ngIf="type == 'base'">
-    <p>Welcome to IT Support, which handles conversation for internal IT application support. You can ask simple question like:</p>
+    <p>Vítejte u chatbota pro výběr hry. Můžete se ptát na jednoduché otázky jako:</p>
       <ul>
-        <li>I could not access application AbC</li>
-        <li>How can I reset my password</li>
-        <li>what is the business process for supplier on boarding?</li>
-        <li>how to bring my ipad for work?</li>
+        <li>Mám si zahrát hru AbC</li>
+        <li>Jakou hru si mám zahrát?</li>
+        <li>Jak si mám vybrat hru?</li>
+        <li>Jakou vybrat platformu?</li>
       </ul>
     <br/>
     <p>The supplier on boarding business process deployed on <a href="https://vhost001.bpm.ibmcloud.com">IBM BPM on Cloud</a> can be triggered automatically from this conversation broker for the dialog flow. To demonstrate you need an account on BPM on Cloud demo server and do the following steps:</p>
